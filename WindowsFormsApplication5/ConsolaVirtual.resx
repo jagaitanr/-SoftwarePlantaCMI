@@ -1,0 +1,2859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BandaInclinadaOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 7</value>
+  </data>
+  <data name="BandaInclinadaOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BandaInclinadaOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BandaInclinadaOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BandaInclinadaOnBoton.Name" xml:space="preserve">
+    <value>BandaInclinadaOnBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaInclinadaOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaInclinadaOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaInclinadaOnBoton.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BandaInclinadaOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BandaInclinadaOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 80</value>
+  </data>
+  <data name="BandaInclinadaOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaInclinadaOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BandaInclinadaOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BandaInclinadaOffBoton.Name" xml:space="preserve">
+    <value>BandaInclinadaOffBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaInclinadaOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaInclinadaOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaInclinadaOffBoton.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ZarandaOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ZarandaOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 80</value>
+  </data>
+  <data name="ZarandaOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="ZarandaOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ZarandaOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;ZarandaOffBoton.Name" xml:space="preserve">
+    <value>ZarandaOffBoton</value>
+  </data>
+  <data name="&gt;&gt;ZarandaOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ZarandaOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ZarandaOffBoton.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="ZarandaOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="ZarandaOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 7</value>
+  </data>
+  <data name="ZarandaOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="ZarandaOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ZarandaOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;ZarandaOnBoton.Name" xml:space="preserve">
+    <value>ZarandaOnBoton</value>
+  </data>
+  <data name="&gt;&gt;ZarandaOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ZarandaOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ZarandaOnBoton.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 43</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 34</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>BAND.CO LECTORA</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="BandaColectoraOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BandaColectoraOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 80</value>
+  </data>
+  <data name="BandaColectoraOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaColectoraOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BandaColectoraOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BandaColectoraOffBoton.Name" xml:space="preserve">
+    <value>BandaColectoraOffBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaColectoraOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaColectoraOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaColectoraOffBoton.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="BandaColectoraOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BandaColectoraOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 7</value>
+  </data>
+  <data name="BandaColectoraOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaColectoraOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BandaColectoraOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BandaColectoraOnBoton.Name" xml:space="preserve">
+    <value>BandaColectoraOnBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaColectoraOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaColectoraOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaColectoraOnBoton.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 43</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>AGRE GADO1</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="BandaAgregados1OffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BandaAgregados1OffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 80</value>
+  </data>
+  <data name="BandaAgregados1OffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaAgregados1OffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="BandaAgregados1OffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados1OffBoton.Name" xml:space="preserve">
+    <value>BandaAgregados1OffBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados1OffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados1OffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados1OffBoton.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="BandaAgregados1OnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BandaAgregados1OnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 7</value>
+  </data>
+  <data name="BandaAgregados1OnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaAgregados1OnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BandaAgregados1OnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados1OnBoton.Name" xml:space="preserve">
+    <value>BandaAgregados1OnBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados1OnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados1OnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados1OnBoton.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 43</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>AGRE GADO2</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="BandaAgregados2OffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BandaAgregados2OffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 80</value>
+  </data>
+  <data name="BandaAgregados2OffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaAgregados2OffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="BandaAgregados2OffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados2OffBoton.Name" xml:space="preserve">
+    <value>BandaAgregados2OffBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados2OffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados2OffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados2OffBoton.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="BandaAgregados2OnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BandaAgregados2OnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 7</value>
+  </data>
+  <data name="BandaAgregados2OnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaAgregados2OnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="BandaAgregados2OnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados2OnBoton.Name" xml:space="preserve">
+    <value>BandaAgregados2OnBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados2OnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados2OnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados2OnBoton.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 43</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>AGRE GADO3</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="BandaAgregados3OffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BandaAgregados3OffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 80</value>
+  </data>
+  <data name="BandaAgregados3OffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaAgregados3OffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="BandaAgregados3OffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados3OffBoton.Name" xml:space="preserve">
+    <value>BandaAgregados3OffBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados3OffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados3OffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados3OffBoton.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="BandaAgregados3OnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BandaAgregados3OnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 7</value>
+  </data>
+  <data name="BandaAgregados3OnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaAgregados3OnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="BandaAgregados3OnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados3OnBoton.Name" xml:space="preserve">
+    <value>BandaAgregados3OnBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados3OnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados3OnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados3OnBoton.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 43</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>AGRE GADO4</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="BandaAgregados4OffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BandaAgregados4OffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 80</value>
+  </data>
+  <data name="BandaAgregados4OffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaAgregados4OffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="BandaAgregados4OffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados4OffBoton.Name" xml:space="preserve">
+    <value>BandaAgregados4OffBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados4OffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados4OffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados4OffBoton.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="BandaAgregados4OnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BandaAgregados4OnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 7</value>
+  </data>
+  <data name="BandaAgregados4OnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaAgregados4OnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="BandaAgregados4OnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados4OnBoton.Name" xml:space="preserve">
+    <value>BandaAgregados4OnBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados4OnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados4OnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaAgregados4OnBoton.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 37</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 34</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>COMP. RECICLADO</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="CompuertaRecicladoBotonRechazo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.25pt</value>
+  </data>
+  <data name="CompuertaRecicladoBotonRechazo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CompuertaRecicladoBotonRechazo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>736, 74</value>
+  </data>
+  <data name="CompuertaRecicladoBotonRechazo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="CompuertaRecicladoBotonRechazo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="CompuertaRecicladoBotonRechazo.Text" xml:space="preserve">
+    <value>RECHAZO</value>
+  </data>
+  <data name="&gt;&gt;CompuertaRecicladoBotonRechazo.Name" xml:space="preserve">
+    <value>CompuertaRecicladoBotonRechazo</value>
+  </data>
+  <data name="&gt;&gt;CompuertaRecicladoBotonRechazo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompuertaRecicladoBotonRechazo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompuertaRecicladoBotonRechazo.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="CompuertaRecicladoBotonSecador.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.5pt</value>
+  </data>
+  <data name="CompuertaRecicladoBotonSecador.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="CompuertaRecicladoBotonSecador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>736, 1</value>
+  </data>
+  <data name="CompuertaRecicladoBotonSecador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="CompuertaRecicladoBotonSecador.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="CompuertaRecicladoBotonSecador.Text" xml:space="preserve">
+    <value>SECADOR</value>
+  </data>
+  <data name="&gt;&gt;CompuertaRecicladoBotonSecador.Name" xml:space="preserve">
+    <value>CompuertaRecicladoBotonSecador</value>
+  </data>
+  <data name="&gt;&gt;CompuertaRecicladoBotonSecador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompuertaRecicladoBotonSecador.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompuertaRecicladoBotonSecador.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 34</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>DRUM BYPASS</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="DrumBypassOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DrumBypassOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 80</value>
+  </data>
+  <data name="DrumBypassOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="DrumBypassOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="DrumBypassOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;DrumBypassOffBoton.Name" xml:space="preserve">
+    <value>DrumBypassOffBoton</value>
+  </data>
+  <data name="&gt;&gt;DrumBypassOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DrumBypassOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DrumBypassOffBoton.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="DrumBypassOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="DrumBypassOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="DrumBypassOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="DrumBypassOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="DrumBypassOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;DrumBypassOnBoton.Name" xml:space="preserve">
+    <value>DrumBypassOnBoton</value>
+  </data>
+  <data name="&gt;&gt;DrumBypassOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DrumBypassOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DrumBypassOnBoton.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>795, 37</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>B. INCL RECICLADO</value>
+  </data>
+  <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="BandaRecicladoOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BandaRecicladoOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>798, 74</value>
+  </data>
+  <data name="BandaRecicladoOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaRecicladoOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="BandaRecicladoOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BandaRecicladoOffBoton.Name" xml:space="preserve">
+    <value>BandaRecicladoOffBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaRecicladoOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaRecicladoOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaRecicladoOffBoton.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="BandaRecicladoOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BandaRecicladoOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>798, 1</value>
+  </data>
+  <data name="BandaRecicladoOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BandaRecicladoOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BandaRecicladoOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BandaRecicladoOnBoton.Name" xml:space="preserve">
+    <value>BandaRecicladoOnBoton</value>
+  </data>
+  <data name="&gt;&gt;BandaRecicladoOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandaRecicladoOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BandaRecicladoOnBoton.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>852, 37</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>SCAL PER</value>
+  </data>
+  <data name="label11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="MotorTrituradoOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MotorTrituradoOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 74</value>
+  </data>
+  <data name="MotorTrituradoOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="MotorTrituradoOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="MotorTrituradoOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;MotorTrituradoOffBoton.Name" xml:space="preserve">
+    <value>MotorTrituradoOffBoton</value>
+  </data>
+  <data name="&gt;&gt;MotorTrituradoOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MotorTrituradoOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MotorTrituradoOffBoton.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="MotorTrituradoOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="MotorTrituradoOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 1</value>
+  </data>
+  <data name="MotorTrituradoOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="MotorTrituradoOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="MotorTrituradoOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;MotorTrituradoOnBoton.Name" xml:space="preserve">
+    <value>MotorTrituradoOnBoton</value>
+  </data>
+  <data name="&gt;&gt;MotorTrituradoOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MotorTrituradoOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MotorTrituradoOnBoton.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 169</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>BLOWER B.H.</value>
+  </data>
+  <data name="label13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="BlowerBHOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlowerBHOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 206</value>
+  </data>
+  <data name="BlowerBHOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BlowerBHOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="BlowerBHOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BlowerBHOffBoton.Name" xml:space="preserve">
+    <value>BlowerBHOffBoton</value>
+  </data>
+  <data name="&gt;&gt;BlowerBHOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlowerBHOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlowerBHOffBoton.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="BlowerBHOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BlowerBHOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 133</value>
+  </data>
+  <data name="BlowerBHOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BlowerBHOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="BlowerBHOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BlowerBHOnBoton.Name" xml:space="preserve">
+    <value>BlowerBHOnBoton</value>
+  </data>
+  <data name="&gt;&gt;BlowerBHOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlowerBHOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlowerBHOnBoton.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 169</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>VANNER B.H.</value>
+  </data>
+  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="VannerBHOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VannerBHOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 206</value>
+  </data>
+  <data name="VannerBHOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="VannerBHOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="VannerBHOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;VannerBHOffBoton.Name" xml:space="preserve">
+    <value>VannerBHOffBoton</value>
+  </data>
+  <data name="&gt;&gt;VannerBHOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VannerBHOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VannerBHOffBoton.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="VannerBHOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="VannerBHOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 133</value>
+  </data>
+  <data name="VannerBHOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="VannerBHOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="VannerBHOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;VannerBHOnBoton.Name" xml:space="preserve">
+    <value>VannerBHOnBoton</value>
+  </data>
+  <data name="&gt;&gt;VannerBHOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VannerBHOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VannerBHOnBoton.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 167</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>COLECTOR1 B.H.</value>
+  </data>
+  <data name="label15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="Colector1BHOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Colector1BHOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 205</value>
+  </data>
+  <data name="Colector1BHOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="Colector1BHOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="Colector1BHOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;Colector1BHOffBoton.Name" xml:space="preserve">
+    <value>Colector1BHOffBoton</value>
+  </data>
+  <data name="&gt;&gt;Colector1BHOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colector1BHOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Colector1BHOffBoton.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="Colector1BHOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="Colector1BHOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 132</value>
+  </data>
+  <data name="Colector1BHOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="Colector1BHOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="Colector1BHOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;Colector1BHOnBoton.Name" xml:space="preserve">
+    <value>Colector1BHOnBoton</value>
+  </data>
+  <data name="&gt;&gt;Colector1BHOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colector1BHOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Colector1BHOnBoton.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 169</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>COLECTOR2 B.H.</value>
+  </data>
+  <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="Colector2BHOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Colector2BHOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 205</value>
+  </data>
+  <data name="Colector2BHOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="Colector2BHOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="Colector2BHOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;Colector2BHOffBoton.Name" xml:space="preserve">
+    <value>Colector2BHOffBoton</value>
+  </data>
+  <data name="&gt;&gt;Colector2BHOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colector2BHOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Colector2BHOffBoton.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="Colector2BHOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="Colector2BHOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 132</value>
+  </data>
+  <data name="Colector2BHOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="Colector2BHOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="Colector2BHOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;Colector2BHOnBoton.Name" xml:space="preserve">
+    <value>Colector2BHOnBoton</value>
+  </data>
+  <data name="&gt;&gt;Colector2BHOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colector2BHOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Colector2BHOnBoton.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 169</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>TRANSV B.H.</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="TransversalBHOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TransversalBHOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 206</value>
+  </data>
+  <data name="TransversalBHOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="TransversalBHOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="TransversalBHOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;TransversalBHOffBoton.Name" xml:space="preserve">
+    <value>TransversalBHOffBoton</value>
+  </data>
+  <data name="&gt;&gt;TransversalBHOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TransversalBHOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TransversalBHOffBoton.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="TransversalBHOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="TransversalBHOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 133</value>
+  </data>
+  <data name="TransversalBHOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="TransversalBHOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="TransversalBHOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;TransversalBHOnBoton.Name" xml:space="preserve">
+    <value>TransversalBHOnBoton</value>
+  </data>
+  <data name="&gt;&gt;TransversalBHOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TransversalBHOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TransversalBHOnBoton.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.75pt</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 168</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>ROTORES B.H.</value>
+  </data>
+  <data name="label18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="RotoresBHOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RotoresBHOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 205</value>
+  </data>
+  <data name="RotoresBHOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="RotoresBHOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="RotoresBHOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;RotoresBHOffBoton.Name" xml:space="preserve">
+    <value>RotoresBHOffBoton</value>
+  </data>
+  <data name="&gt;&gt;RotoresBHOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotoresBHOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RotoresBHOffBoton.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="RotoresBHOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="RotoresBHOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 132</value>
+  </data>
+  <data name="RotoresBHOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="RotoresBHOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="RotoresBHOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;RotoresBHOnBoton.Name" xml:space="preserve">
+    <value>RotoresBHOnBoton</value>
+  </data>
+  <data name="&gt;&gt;RotoresBHOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotoresBHOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RotoresBHOnBoton.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 171</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>COMPRESOR</value>
+  </data>
+  <data name="label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="CompresorOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CompresorOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 208</value>
+  </data>
+  <data name="CompresorOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="CompresorOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="CompresorOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;CompresorOffBoton.Name" xml:space="preserve">
+    <value>CompresorOffBoton</value>
+  </data>
+  <data name="&gt;&gt;CompresorOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompresorOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompresorOffBoton.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="CompresorOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="CompresorOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 135</value>
+  </data>
+  <data name="CompresorOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="CompresorOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="CompresorOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;CompresorOnBoton.Name" xml:space="preserve">
+    <value>CompresorOnBoton</value>
+  </data>
+  <data name="&gt;&gt;CompresorOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompresorOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CompresorOnBoton.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 116</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>BOMBA ASFALTO</value>
+  </data>
+  <data name="label20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="BombaAsfaltoStopBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="BombaAsfaltoStopBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BombaAsfaltoStopBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 153</value>
+  </data>
+  <data name="BombaAsfaltoStopBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BombaAsfaltoStopBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="BombaAsfaltoStopBoton.Text" xml:space="preserve">
+    <value>STOP</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoStopBoton.Name" xml:space="preserve">
+    <value>BombaAsfaltoStopBoton</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoStopBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoStopBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoStopBoton.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="BombaAsfaltoAdelanteBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.5pt</value>
+  </data>
+  <data name="BombaAsfaltoAdelanteBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BombaAsfaltoAdelanteBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 81</value>
+  </data>
+  <data name="BombaAsfaltoAdelanteBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BombaAsfaltoAdelanteBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="BombaAsfaltoAdelanteBoton.Text" xml:space="preserve">
+    <value>ADELANTE</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoAdelanteBoton.Name" xml:space="preserve">
+    <value>BombaAsfaltoAdelanteBoton</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoAdelanteBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoAdelanteBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoAdelanteBoton.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="BombaAsfaltoAtrasBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="BombaAsfaltoAtrasBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BombaAsfaltoAtrasBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 192</value>
+  </data>
+  <data name="BombaAsfaltoAtrasBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 30</value>
+  </data>
+  <data name="BombaAsfaltoAtrasBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="BombaAsfaltoAtrasBoton.Text" xml:space="preserve">
+    <value>ATRAS</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoAtrasBoton.Name" xml:space="preserve">
+    <value>BombaAsfaltoAtrasBoton</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoAtrasBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoAtrasBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BombaAsfaltoAtrasBoton.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 170</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 34</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>EXTRACTOR AIRE B.H.</value>
+  </data>
+  <data name="label21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="ExtractorBHOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ExtractorBHOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>736, 206</value>
+  </data>
+  <data name="ExtractorBHOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="ExtractorBHOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="ExtractorBHOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;ExtractorBHOffBoton.Name" xml:space="preserve">
+    <value>ExtractorBHOffBoton</value>
+  </data>
+  <data name="&gt;&gt;ExtractorBHOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExtractorBHOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExtractorBHOffBoton.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="ExtractorBHOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="ExtractorBHOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>736, 133</value>
+  </data>
+  <data name="ExtractorBHOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="ExtractorBHOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="ExtractorBHOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;ExtractorBHOnBoton.Name" xml:space="preserve">
+    <value>ExtractorBHOnBoton</value>
+  </data>
+  <data name="&gt;&gt;ExtractorBHOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExtractorBHOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExtractorBHOnBoton.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>793, 169</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>BLOWER QUEMADOR</value>
+  </data>
+  <data name="label22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="BlowerQuemadorOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlowerQuemadorOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>796, 205</value>
+  </data>
+  <data name="BlowerQuemadorOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BlowerQuemadorOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="BlowerQuemadorOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BlowerQuemadorOffBoton.Name" xml:space="preserve">
+    <value>BlowerQuemadorOffBoton</value>
+  </data>
+  <data name="&gt;&gt;BlowerQuemadorOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlowerQuemadorOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlowerQuemadorOffBoton.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="BlowerQuemadorOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BlowerQuemadorOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>796, 132</value>
+  </data>
+  <data name="BlowerQuemadorOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BlowerQuemadorOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="BlowerQuemadorOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BlowerQuemadorOnBoton.Name" xml:space="preserve">
+    <value>BlowerQuemadorOnBoton</value>
+  </data>
+  <data name="&gt;&gt;BlowerQuemadorOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlowerQuemadorOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlowerQuemadorOnBoton.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.5pt</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>850, 167</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 39</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>ELEVADOR</value>
+  </data>
+  <data name="label23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="ElevadorOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ElevadorOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>853, 205</value>
+  </data>
+  <data name="ElevadorOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="ElevadorOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="ElevadorOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;ElevadorOffBoton.Name" xml:space="preserve">
+    <value>ElevadorOffBoton</value>
+  </data>
+  <data name="&gt;&gt;ElevadorOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ElevadorOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ElevadorOffBoton.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="ElevadorOnBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ElevadorOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="ElevadorOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>853, 132</value>
+  </data>
+  <data name="ElevadorOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="ElevadorOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="ElevadorOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;ElevadorOnBoton.Name" xml:space="preserve">
+    <value>ElevadorOnBoton</value>
+  </data>
+  <data name="&gt;&gt;ElevadorOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ElevadorOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ElevadorOnBoton.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.5pt</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>908, 168</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>SECA DOR</value>
+  </data>
+  <data name="label24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="SecadorOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SecadorOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>911, 205</value>
+  </data>
+  <data name="SecadorOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="SecadorOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="SecadorOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;SecadorOffBoton.Name" xml:space="preserve">
+    <value>SecadorOffBoton</value>
+  </data>
+  <data name="&gt;&gt;SecadorOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SecadorOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SecadorOffBoton.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="SecadorOnBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="SecadorOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="SecadorOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>911, 132</value>
+  </data>
+  <data name="SecadorOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="SecadorOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="SecadorOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;SecadorOnBoton.Name" xml:space="preserve">
+    <value>SecadorOnBoton</value>
+  </data>
+  <data name="&gt;&gt;SecadorOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SecadorOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SecadorOnBoton.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="SlingerAtrasBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="SlingerAtrasBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="SlingerAtrasBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 192</value>
+  </data>
+  <data name="SlingerAtrasBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 30</value>
+  </data>
+  <data name="SlingerAtrasBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="SlingerAtrasBoton.Text" xml:space="preserve">
+    <value>ATRAS</value>
+  </data>
+  <data name="&gt;&gt;SlingerAtrasBoton.Name" xml:space="preserve">
+    <value>SlingerAtrasBoton</value>
+  </data>
+  <data name="&gt;&gt;SlingerAtrasBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SlingerAtrasBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SlingerAtrasBoton.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>521, 116</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>SLIN GER</value>
+  </data>
+  <data name="label25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="SlingerStopBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="SlingerStopBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SlingerStopBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 153</value>
+  </data>
+  <data name="SlingerStopBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="SlingerStopBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="SlingerStopBoton.Text" xml:space="preserve">
+    <value>STOP</value>
+  </data>
+  <data name="&gt;&gt;SlingerStopBoton.Name" xml:space="preserve">
+    <value>SlingerStopBoton</value>
+  </data>
+  <data name="&gt;&gt;SlingerStopBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SlingerStopBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SlingerStopBoton.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="SlingerAdelanteBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.5pt</value>
+  </data>
+  <data name="SlingerAdelanteBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="SlingerAdelanteBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 81</value>
+  </data>
+  <data name="SlingerAdelanteBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="SlingerAdelanteBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="SlingerAdelanteBoton.Text" xml:space="preserve">
+    <value>ADELANTE</value>
+  </data>
+  <data name="&gt;&gt;SlingerAdelanteBoton.Name" xml:space="preserve">
+    <value>SlingerAdelanteBoton</value>
+  </data>
+  <data name="&gt;&gt;SlingerAdelanteBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SlingerAdelanteBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SlingerAdelanteBoton.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1078, 36</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>BOMBA COMB.</value>
+  </data>
+  <data name="label26.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="BombaCombustibleOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BombaCombustibleOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1081, 73</value>
+  </data>
+  <data name="BombaCombustibleOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BombaCombustibleOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="BombaCombustibleOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;BombaCombustibleOffBoton.Name" xml:space="preserve">
+    <value>BombaCombustibleOffBoton</value>
+  </data>
+  <data name="&gt;&gt;BombaCombustibleOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BombaCombustibleOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BombaCombustibleOffBoton.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="BombaCombustibleOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="BombaCombustibleOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1081, 0</value>
+  </data>
+  <data name="BombaCombustibleOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="BombaCombustibleOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="BombaCombustibleOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;BombaCombustibleOnBoton.Name" xml:space="preserve">
+    <value>BombaCombustibleOnBoton</value>
+  </data>
+  <data name="&gt;&gt;BombaCombustibleOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BombaCombustibleOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BombaCombustibleOnBoton.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1129, 36</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>DAM PER</value>
+  </data>
+  <data name="label27.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="DamperManualBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.75pt</value>
+  </data>
+  <data name="DamperManualBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DamperManualBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1139, 73</value>
+  </data>
+  <data name="DamperManualBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="DamperManualBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="DamperManualBoton.Text" xml:space="preserve">
+    <value>MANUAL</value>
+  </data>
+  <data name="&gt;&gt;DamperManualBoton.Name" xml:space="preserve">
+    <value>DamperManualBoton</value>
+  </data>
+  <data name="&gt;&gt;DamperManualBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DamperManualBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DamperManualBoton.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="DamperAutoBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="DamperAutoBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="DamperAutoBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1139, 0</value>
+  </data>
+  <data name="DamperAutoBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="DamperAutoBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="DamperAutoBoton.Text" xml:space="preserve">
+    <value>AUTO</value>
+  </data>
+  <data name="&gt;&gt;DamperAutoBoton.Name" xml:space="preserve">
+    <value>DamperAutoBoton</value>
+  </data>
+  <data name="&gt;&gt;DamperAutoBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DamperAutoBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DamperAutoBoton.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>917, 39</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>AGG.RE CICLADO</value>
+  </data>
+  <data name="label28.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="AgregadoRecicladoOffBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AgregadoRecicladoOffBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>923, 73</value>
+  </data>
+  <data name="AgregadoRecicladoOffBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="AgregadoRecicladoOffBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="AgregadoRecicladoOffBoton.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;AgregadoRecicladoOffBoton.Name" xml:space="preserve">
+    <value>AgregadoRecicladoOffBoton</value>
+  </data>
+  <data name="&gt;&gt;AgregadoRecicladoOffBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AgregadoRecicladoOffBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AgregadoRecicladoOffBoton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="AgregadoRecicladoOnBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="AgregadoRecicladoOnBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>920, 0</value>
+  </data>
+  <data name="AgregadoRecicladoOnBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="AgregadoRecicladoOnBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="AgregadoRecicladoOnBoton.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;AgregadoRecicladoOnBoton.Name" xml:space="preserve">
+    <value>AgregadoRecicladoOnBoton</value>
+  </data>
+  <data name="&gt;&gt;AgregadoRecicladoOnBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AgregadoRecicladoOnBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AgregadoRecicladoOnBoton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1193, 38</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>ALIM. SILO</value>
+  </data>
+  <data name="label29.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="AlimentacionSiloOpenBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="AlimentacionSiloOpenBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AlimentacionSiloOpenBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1203, 75</value>
+  </data>
+  <data name="AlimentacionSiloOpenBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="AlimentacionSiloOpenBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="AlimentacionSiloOpenBoton.Text" xml:space="preserve">
+    <value>ABRIR</value>
+  </data>
+  <data name="&gt;&gt;AlimentacionSiloOpenBoton.Name" xml:space="preserve">
+    <value>AlimentacionSiloOpenBoton</value>
+  </data>
+  <data name="&gt;&gt;AlimentacionSiloOpenBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlimentacionSiloOpenBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AlimentacionSiloOpenBoton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="AlimentacionSiloCicloBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="AlimentacionSiloCicloBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="AlimentacionSiloCicloBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1203, 2</value>
+  </data>
+  <data name="AlimentacionSiloCicloBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="AlimentacionSiloCicloBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="AlimentacionSiloCicloBoton.Text" xml:space="preserve">
+    <value>CICLO</value>
+  </data>
+  <data name="&gt;&gt;AlimentacionSiloCicloBoton.Name" xml:space="preserve">
+    <value>AlimentacionSiloCicloBoton</value>
+  </data>
+  <data name="&gt;&gt;AlimentacionSiloCicloBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlimentacionSiloCicloBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AlimentacionSiloCicloBoton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PilotoBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 124</value>
+  </data>
+  <data name="PilotoBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 54</value>
+  </data>
+  <data name="PilotoBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="PilotoBoton.Text" xml:space="preserve">
+    <value>PILOTO</value>
+  </data>
+  <data name="&gt;&gt;PilotoBoton.Name" xml:space="preserve">
+    <value>PilotoBoton</value>
+  </data>
+  <data name="&gt;&gt;PilotoBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PilotoBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PilotoBoton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LlamaPrincipalBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="LlamaPrincipalBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 124</value>
+  </data>
+  <data name="LlamaPrincipalBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 54</value>
+  </data>
+  <data name="LlamaPrincipalBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="LlamaPrincipalBoton.Text" xml:space="preserve">
+    <value>
+LLAMA 
+PRINCIPAL</value>
+  </data>
+  <data name="LlamaPrincipalBoton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;LlamaPrincipalBoton.Name" xml:space="preserve">
+    <value>LlamaPrincipalBoton</value>
+  </data>
+  <data name="&gt;&gt;LlamaPrincipalBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LlamaPrincipalBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LlamaPrincipalBoton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1013, 36</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 34</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>COMBUS TIBLE</value>
+  </data>
+  <data name="label30.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CombustibleGasBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="CombustibleGasBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CombustibleGasBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 73</value>
+  </data>
+  <data name="CombustibleGasBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="CombustibleGasBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="CombustibleGasBoton.Text" xml:space="preserve">
+    <value>GAS</value>
+  </data>
+  <data name="&gt;&gt;CombustibleGasBoton.Name" xml:space="preserve">
+    <value>CombustibleGasBoton</value>
+  </data>
+  <data name="&gt;&gt;CombustibleGasBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CombustibleGasBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CombustibleGasBoton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CombustibleAceiteBoton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="CombustibleAceiteBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="CombustibleAceiteBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 0</value>
+  </data>
+  <data name="CombustibleAceiteBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="CombustibleAceiteBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="CombustibleAceiteBoton.Text" xml:space="preserve">
+    <value>ACEITE</value>
+  </data>
+  <data name="&gt;&gt;CombustibleAceiteBoton.Name" xml:space="preserve">
+    <value>CombustibleAceiteBoton</value>
+  </data>
+  <data name="&gt;&gt;CombustibleAceiteBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CombustibleAceiteBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CombustibleAceiteBoton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ResetPilotoLLamaBoton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="ResetPilotoLLamaBoton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1044, 190</value>
+  </data>
+  <data name="ResetPilotoLLamaBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 40</value>
+  </data>
+  <data name="ResetPilotoLLamaBoton.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="ResetPilotoLLamaBoton.Text" xml:space="preserve">
+    <value>Reset 
+Piloto LLama</value>
+  </data>
+  <data name="&gt;&gt;ResetPilotoLLamaBoton.Name" xml:space="preserve">
+    <value>ResetPilotoLLamaBoton</value>
+  </data>
+  <data name="&gt;&gt;ResetPilotoLLamaBoton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ResetPilotoLLamaBoton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ResetPilotoLLamaBoton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 43</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 34</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>BANDA INCLINADA</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 43</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 34</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>ZARA NDA</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 247</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 550</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Control de motores</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ControlMotores</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

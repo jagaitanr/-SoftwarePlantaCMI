@@ -1,0 +1,39 @@
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Ingreso.resources
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+c:\users\usuario\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+C:\Users\USUARIO\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.MenuPrincipal.resources
+C:\Users\USUARIO\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ControlMotores.resources
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DiseñoMezclas.resources
+C:\Users\USUARIO\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CalibracionAgregados.resources
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ConfigPuertoSerial.resources
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CalibracionRecicladocs.resources
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CalibracionBombaAsfalto.resources
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Planta.resources
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Simulador.resources
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.mensajeConfirmación.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojAssemblyReference.cache
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CalibracionBombaAsfalto.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CalibracionRecicladocs.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ConfigPuertoSerial.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.mensajeConfirmación.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Simulador.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Ingreso.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.MenuPrincipal.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Planta.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ControlMotores.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DiseñoMezclas.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CalibracionAgregados.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.cache
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.CoreCompileInputs.cache
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\MHC\Documents\Programas planta CMI\Implementación semiautomatico planta CMI\WindowsFormsApplication5_copia Dic2017\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
